@@ -1,0 +1,12 @@
+//A sass file called main.scss (which will be responsible for importing the colors.scss and text.scss files)
+@use 'text';
+
+.img{
+  width: 50px;
+  height: 50px;
+}
+
+.imgBig{
+  width: 200px;
+  height: 200px;
+}
