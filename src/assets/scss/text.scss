@@ -1,0 +1,11 @@
+/*
+  A sass file called "text.scss" that applies the css style rules related to text.
+*/
+
+$font-stack-main: 'Roboto',
+sans-serif;
+
+h1 {
+  font-family: $font-stack-main;
+  font-style: italic;
+}

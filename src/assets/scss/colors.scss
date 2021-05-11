@@ -1,0 +1,13 @@
+/*
+  A sass file called "colors.scss" that applies the css style rules related to colors.
+*/
+
+$fontColor: white;
+$background-color: black;
+
+body {
+  background-color: $background-color;
+  h1 {
+    color: $fontColor;
+  }
+}
