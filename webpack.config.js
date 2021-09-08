@@ -3,6 +3,7 @@ const webpack = require("webpack");
 const svgToMiniDataURI = require("mini-svg-data-uri");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ImageMinimizerWebpackPlugin = require("image-minimizer-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "development",
@@ -35,6 +36,9 @@ module.exports = {
         plugins: ["gifsicle", "jpegtran", "optipng", "svgo"],
       },
     }),
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+    }),
   ],
   module: {
     rules: [
@@ -51,7 +55,7 @@ module.exports = {
       },
       {
         test: /\.(scss|sass)$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
         test: /\.(jpe?g|gif)$/i,

@@ -1,0 +1,328 @@
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*************************************************************************************************************/
+/* ===== Colors ===== */
+.text-color-blue {
+  color: #0d6efd;
+}
+
+.bg-color-blue {
+  background-color: #0d6efd;
+}
+
+.border-color-blue {
+  border-color: #0d6efd;
+}
+
+.text-color-indigo {
+  color: #6610f2;
+}
+
+.bg-color-indigo {
+  background-color: #6610f2;
+}
+
+.border-color-indigo {
+  border-color: #6610f2;
+}
+
+.text-color-purple {
+  color: #6f42c1;
+}
+
+.bg-color-purple {
+  background-color: #6f42c1;
+}
+
+.border-color-purple {
+  border-color: #6f42c1;
+}
+
+.text-color-pink {
+  color: #d63384;
+}
+
+.bg-color-pink {
+  background-color: #d63384;
+}
+
+.border-color-pink {
+  border-color: #d63384;
+}
+
+.text-color-red {
+  color: #dc3545;
+}
+
+.bg-color-red {
+  background-color: #dc3545;
+}
+
+.border-color-red {
+  border-color: #dc3545;
+}
+
+.text-color-orange {
+  color: #fd7e14;
+}
+
+.bg-color-orange {
+  background-color: #fd7e14;
+}
+
+.border-color-orange {
+  border-color: #fd7e14;
+}
+
+.text-color-yellow {
+  color: #ffc107;
+}
+
+.bg-color-yellow {
+  background-color: #ffc107;
+}
+
+.border-color-yellow {
+  border-color: #ffc107;
+}
+
+.text-color-green {
+  color: #198754;
+}
+
+.bg-color-green {
+  background-color: #198754;
+}
+
+.border-color-green {
+  border-color: #198754;
+}
+
+.text-color-teal {
+  color: #20c997;
+}
+
+.bg-color-teal {
+  background-color: #20c997;
+}
+
+.border-color-teal {
+  border-color: #20c997;
+}
+
+.text-color-cyan {
+  color: #0dcaf0;
+}
+
+.bg-color-cyan {
+  background-color: #0dcaf0;
+}
+
+.border-color-cyan {
+  border-color: #0dcaf0;
+}
+
+.text-color-gray-01 {
+  color: #fafafa;
+}
+
+.bg-color-gray-01 {
+  background-color: #fafafa;
+}
+
+.border-color-gray-01 {
+  border-color: #fafafa;
+}
+
+.text-color-gray-02 {
+  color: #dbdbdb;
+}
+
+.bg-color-gray-02 {
+  background-color: #dbdbdb;
+}
+
+.border-color-gray-02 {
+  border-color: #dbdbdb;
+}
+
+.text-color-gray-03 {
+  color: #a2a2a2;
+}
+
+.bg-color-gray-03 {
+  background-color: #a2a2a2;
+}
+
+.border-color-gray-03 {
+  border-color: #a2a2a2;
+}
+
+.text-color-blue-01 {
+  color: #0095f6;
+}
+
+.bg-color-blue-01 {
+  background-color: #0095f6;
+}
+
+.border-color-blue-01 {
+  border-color: #0095f6;
+}
+
+.text-color-blue-02 {
+  color: #385185;
+}
+
+.bg-color-blue-02 {
+  background-color: #385185;
+}
+
+.border-color-blue-02 {
+  border-color: #385185;
+}
+
+.text-color-blue-03 {
+  color: #00376b;
+}
+
+.bg-color-blue-03 {
+  background-color: #00376b;
+}
+
+.border-color-blue-03 {
+  border-color: #00376b;
+}
+
+.text-color-transparent {
+  color: transparent;
+}
+
+.bg-color-transparent {
+  background-color: transparent;
+}
+
+.border-color-transparent {
+  border-color: transparent;
+}
+
+/* ===== Font Typescales ===== */
+/* ===== Font Config Variables ===== */
+/* ===== Font Size Classes ===== */
+.font-size-100 {
+  font-size: 0.512rem;
+}
+
+.font-size-200 {
+  font-size: 0.64rem;
+}
+
+.font-size-300 {
+  font-size: 0.8rem;
+}
+
+.font-size-400 {
+  font-size: 1rem;
+}
+
+.font-size-500 {
+  font-size: 1.5625rem;
+}
+
+.font-size-600 {
+  font-size: 1.953125rem;
+}
+
+.font-size-700 {
+  font-size: 2.44140625rem;
+}
+
+.font-size-800 {
+  font-size: 3.0517578125rem;
+}
+
+.font-size-900 {
+  font-size: 3.8146972656rem;
+}
+
+/* ===== Font Weight Classes ===== */
+.font-weight-100 {
+  font-weight: 100;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+/* ===== Font Style Classes ===== */
+.font-style-normal {
+  font-style: normal;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+
+/* ===== Text Align Classes ===== */
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+/* ===== Text Decoration Classes ===== */
+.text-decoration-none {
+  text-decoration: "none";
+}
+
+.text-decoration-underline {
+  text-decoration: "underline";
+}
+
+body {
+  background-image: url(images/93a9ae66a2e442e94690.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img {
+  margin: 0 auto;
+}
