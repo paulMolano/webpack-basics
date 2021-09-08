@@ -1,2 +1,12 @@
 @use "colors";
 @use "text";
+
+body {
+    background-image: url(../images/landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    margin: 0 auto;
+}
