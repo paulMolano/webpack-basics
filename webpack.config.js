@@ -1,6 +1,6 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -13,21 +13,23 @@ module.exports = {
     filename: "[name].js",
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+    }),
     new HtmlWebpackPlugin({
       title: "Webpack Basics",
-
       template: path.resolve(__dirname, "./src/index.html"),
-
       filename: "index.html",
     }),
   ],
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   use: ["babel-loader"],
-      // },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
       {
         test: /\.(scss|css)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
