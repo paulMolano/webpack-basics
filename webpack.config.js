@@ -34,6 +34,10 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        type: "asset/inline",
+        test: /\.(png|svg)$/i,
+      },
     ],
   },
 };
